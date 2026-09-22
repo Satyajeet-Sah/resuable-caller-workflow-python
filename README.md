@@ -236,7 +236,8 @@ reusable-caller-workflow-python
            python-ci
 ```
 
-## Repository
+## Reusable Workflow Repository
 
-`Satyajeet-Sah/reusable-caller-workflow-python`
+This project uses the reusable workflow from the repository below:
 
+[reusable-workflow](https://github.com/Satyajeet-Sah/reusable-workflow)
