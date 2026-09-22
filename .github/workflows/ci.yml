@@ -1,0 +1,9 @@
+name: Python Application CI
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  call-common-ci:
+    uses: Satyajeet-Sah/reusable-workflow/.github/workflows/common-ci.yml@main   
