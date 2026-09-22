@@ -6,7 +6,7 @@ app = Flask(__name__)
 def health():
     return jsonify({
         "status": "healthy",
-        "service": "reusable-workflow-python"
+        "service": "reusable-workflow-python-api"
     })
 
 @app.route("/api/users")
