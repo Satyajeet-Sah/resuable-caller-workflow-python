@@ -7,3 +7,5 @@ on:
 jobs:
   call-common-ci:
     uses: Satyajeet-Sah/reusable-workflow/.github/workflows/common-ci.yml@main   
+    with:
+      python-version: "3.12"   
